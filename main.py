@@ -18,3 +18,6 @@ def send_text(message):
     # if u wanna to say 'bye', u need :
     if message.text.lower() == 'bye':
         bot.send_message(message.chat.id, 'See u next time, bye!') 
+
+
+bot.polling(non_stop=True)
