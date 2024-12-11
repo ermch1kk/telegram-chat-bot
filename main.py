@@ -12,7 +12,7 @@ def start_message(message):
 def send_text(message):
     # now we can type diffrent messages
     # for example : 
-    if message.text.lower() == 'Hi':
+    if message.text.lower() == 'hi':
         bot.send_message(message.chat.id, 'Hello, my dear friend!') 
 
     # if u wanna to say 'bye', u need :
